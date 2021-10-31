@@ -13,7 +13,7 @@ from streamlit.elements.legacy_data_frame import add_rows
 from multiapp import MultiApp
 from apps import rdof, association, dryer_prob, washerclass
 
-st.beta_set_page_config(page_title='Laundry Blues', layout = 'wide', initial_sidebar_state = 'auto')
+st.set_page_config(page_title='Laundry Blues', layout = 'wide', initial_sidebar_state = 'auto')
 
 app = MultiApp()
 apptitle = 'Laundry Customer Profiling'
